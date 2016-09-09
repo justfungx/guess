@@ -41,21 +41,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="b1"
+            android:text="New"
             />
         <Button
-            android:id="@+id/getretrun"
+            android:id="@+id/getreturn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="b2"
+            android:text="Return"
             />
         <Button
             android:id="@+id/bye"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="b3"
+            android:text="Bye"
             />
 
     </LinearLayout>
