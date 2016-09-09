@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <RelativeLayout
+        android:id="@+id/topLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        >
+        <Button
+            android:id="@+id/guess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Guess" />
+
+            <EditText
+                android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/guess"
+            android:layout_alignTop="@id/guess"
+            android:layout_alignBottom="@id/guess"
+                />
+          </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/getnew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="b1"
+            />
+        <Button
+            android:id="@+id/getretrun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="b2"
+            />
+        <Button
+            android:id="@+id/"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="b3"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0"
+        android:layout_below="@id/topLine"
+        android:layout_above="@id/bottomLine"
+        android:textSize="32sp"
+        android:textStyle="bold|italic"
+        />
+</RelativeLayout>
